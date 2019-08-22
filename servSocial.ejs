@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nigromante - Servicio Social</title>
+    <link rel="stylesheet" href="css/styles/estilos.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!--PlugIns-->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>   <!-- "bootstrap": "3.3.7"-->
+    <script src="controllers/PrincipalModule.js"></script>
+
+</head>
+<body class="fondo">
+<header>
+    <!--Menu barra de navegacion-->
+    <nav class="navbar "  id="menu">
+        <!--cabecera del menu de navegacion-->
+        <div class="col-md-12" id="black">
+            <div class="col-md-2 "><br></div>
+            <div class="col-md-7 "><img  id="logoNigromante" class="img-responsive"  src="../Img/logo.png"></div>
+            <div class="col-md-3" ><img class="img-responsive" id="parquita" src="../Img/parquita.jpg"></div>
+        </div>
+        <div class="control-label" id="centrado">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Principal</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Publicaciones <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/revistas2019">Revistas</a></li>
+                        <li><a href="/boletines">Boletines</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Fotos<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/fotos">Fotos</a></li>
+                        <li><a href="/memes">Memes</a></li>
+                    </ul>
+                </li>
+                <li><a href="/videos">Videos</a></li>
+                <li class="active"><a>Servicio social</a></li>
+                <li><a href="/somos">Acerca de Nosotros</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="col-md-12" id="margen">
+    <div align="center" class="col-md-1" id="padfoot">
+        <br>
+    </div>
+    <!--centro---------------------------------------------------------------------->
+    <div align="center" class="col-md-10" id="padfoot">
+        <H1>¿Te interesa hacer tu servicio social?</H1>
+        <div align="left">
+            <div class="well">
+                <h2>●	Requisitos para realizar servicio social </h2>
+                <div>
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>FI</th>
+                            <th>FCPyS</th>
+                            <th>FAD</th>
+                            <th>FFyL</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>creditos</td>
+                            <td>35%</td>
+                            <td>75%</td>
+                            <td>75%</td>
+                            <td>75%</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <h2>●	Recomendación de tiempos para realizar servicio social </h2>
+                <br>
+                <p>El servicio social se podrá realizar durante un periodo mínimo de 6 meses y un máximo de 2 años. El promedio recomendable y la relación de horas mínimas a la semana, de modo bimestral, es la siguiente:</p>
+                <div>
+                    <table class="table table-bordered table-responsive">
+                        <tbody>
+                        <tr>
+                            <td>Porcentaje de avance en carrera</td>
+                            <td>80%</td>
+                            <td>65%</td>
+                            <td>50%</td>
+                            <td>35%</td>
+                            <td>35%</td>
+                            <td>35%</td>
+                            <td>35%</td>
+                            <td>35%</td>
+                            <td>35%</td>
+                            <td>35%</td>
+                        </tr>
+                        <tr>
+                            <td>Periodo en meses</td>
+                            <td>6 meses</td>
+                            <td>8 meses</td>
+                            <td>10 meses</td>
+                            <td>12 meses</td>
+                            <td>14 meses</td>
+                            <td>16 meses</td>
+                            <td>18 meses</td>
+                            <td>20 meses</td>
+                            <td>22 meses</td>
+                            <td>24 meses</td>
+                        </tr>
+                        <tr>
+                            <td>Tiempo minimo de horas por semana</td>
+                            <td>20hrs</td>
+                            <td>15hrs</td>
+                            <td>12hrs</td>
+                            <td>10hrs</td>
+                            <td>8.5hrs</td>
+                            <td>7.5hrs</td>
+                            <td>6.6hrs</td>
+                            <td>6hrs</td>
+                            <td>5.5hrs</td>
+                            <td>5hrs</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <p>Cabe destacar que de acuerdo con el Artículo 7 del Reglamento General del Servicio Social de la Universidad Nacional Autónoma de México, “... Se entenderá que existe discontinuidad cuando sin causa justificada se interrumpa la prestación del servicio social por más de 18 días durante 6 meses, o en su caso 5 días seguidos. Los días se entienden como hábiles.”</p>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <h2>●   Las labores dependiendo del area</h2>
+                    </div>
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>FI</th>
+                            <th>FCPyS</th>
+                            <th>FAD</th>
+                            <th>FFyL</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <p>Ayudar academicos </p>
+                                <p>Generar artículos de divulgacion para la revista nigromante</p>
+                                <p>-    puede ser relacionado con el tema del mes, sucesos del mes o intereses personales</p>
+                                <p>Cubrir eventos dentro de la facutad</p>
+                                <p>En redes sociales, crear contenido audiovisual y programar publicaciones diarias</p>
+                                <p>Actualizar la base de datos Nigromante</p>
+                            </td>
+                            <td>
+                                <p>Geenrar artículos de divulgacion para la revista nigromante relacionados con el tema del mes o interes personal</p>
+                                <p>Cubrir eventos culturales dentro de la facultad </p>
+                                <p>Generar contenido para el canal de Youtube Nigromante </p>
+                                <p>Programacion de preguntas para entrevistas y contenido relacionado con su area</p>
+                            </td>
+                            <td>
+                                <p>Edicion de la revista mensual Nigromante</p>
+                                <p>Creación de contenido audiovisual para redes sociales</p>
+                                <p>Creación de contenido original para la revista Nigromante y la pagina web</p>
+                            </td>
+                            <td>
+                                <p>Geenrar artículos de divulgacion para la revista nigromante relacionados con el tema del mes o interes personal</p>
+                                <p>Fungir como editor de la revista Nigromante</p>
+                                <p>Corrector de estilo de los artículos recibidos para su osible publicacion en la revista</p>
+                                <p>Corrector de estilo para las  publicaciones en redes sociales</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h2>●   Beneficios que ofrecemos</h2>
+                    <p>flexibilidad de horario entre 9am y 7pm de lunes a viernes</p>
+                    <p>Capacitacion en diversos programas de computacion</p>
+                    <p>Trabajo multidiciplinario</p>
+                    <p>Buen ambiente laboral</p>
+                    <p>Diseño libre (FAD)</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div align="center" class="col-md-1" id="padfoot">
+        <br>
+    </div>
+</div>
+
+<footer class="col-md-12" id="footer">
+    <div>
+        <div id="padfoot">
+            <div class="col-md-1"><img  id="escudos" class="img-responsive" src="../Img/unam.jpg"></div>
+            <div class="col-md-9"><h4> Todos los derechos reservados © 1999 - 2019 / Facultad de Ingeniería/UNAM/ </h4>
+                <p>Esta es la página electrónica institucional de la Facultad de Ingeniería de la UNAM. Puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. Contiene enlaces con diversos portales de entidades y organizaciones académicas, estudiantiles y profesionales, así como con páginas personales de profesores e investigadores cuyos contenidos son de la responsabilidad exclusiva de sus titulares.</p>
+
+            </div>
+            <div class="col-md-1"><img  id="escudos" class="img-responsive" src="../Img/ingenieria.png"></div>
+            <div class="col-md-1"><img  id="escudos" class="img-responsive" src="../Img/humanidades.jpg"></div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
