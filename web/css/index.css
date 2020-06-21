@@ -1,0 +1,37 @@
+.dino-imagen{
+     background-image: url('./../resources/dino-gif.gif');
+     background-repeat: round;
+     height: 100vh;
+     top: 0;
+     position: absolute;
+     z-index: -1;
+
+}
+
+.logo-imagen{
+     width: 15vh;
+     background-repeat: round;
+}
+
+.active{
+     border-bottom: solid;
+     border-bottom-color: rgba(0,150,186,1);
+     border-bottom-width: thick;
+}
+
+.container-nabvar{
+     width: 100%;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+.logo-imagen-grande{
+     width: 10vw;
+     display: block;
+}
+
+@media screen and (max-width: 991px){
+     .logo-imagen-grande{
+          display: none;
+     }
+}
