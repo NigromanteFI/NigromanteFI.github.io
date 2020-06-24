@@ -1,17 +1,25 @@
+body{
+     overflow: hidden;
+}
+
 .dino-imagen{
      background-image: url('./../resources/dino-gif.gif');
      background-repeat: round;
      height: 100vh;
      top: 0;
+     left: 0;
      position: absolute;
      z-index: -1;
-
+     opacity: 0.6;
+     width: 100%;
 }
 
 .logo-imagen{
      width: 15vh;
      background-repeat: round;
 }
+
+
 
 .active{
      border-bottom: solid;
@@ -30,8 +38,18 @@
      display: block;
 }
 
+.section_text{
+     background-color: #e0e0e0;
+     height: 100vh;
+}
+
 @media screen and (max-width: 991px){
      .logo-imagen-grande{
           display: none;
      }
+     
+     .nigromante-principal{
+          width: 95vw;
+     }
+     
 }
