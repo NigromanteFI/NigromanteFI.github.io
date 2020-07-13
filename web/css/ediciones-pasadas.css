@@ -1,0 +1,138 @@
+.revista-gif{
+     background-repeat: round;
+     height: 35vh;
+     top: 0;
+     left: 0;
+     position: absolute;
+     z-index: -1;
+     width: 100%;
+}
+
+.div-img__background{
+     height: 28vh;
+     background-color: rgb(0,0,0,0.5);
+}
+
+.div-img__h1{
+     color: white;
+     font-size: 60pt;
+     line-height: 0.25;
+     font-weight: 100;
+}
+
+.nigromante-principal{
+     width: 60%;
+}
+
+.logo-imagen{
+     width: 15vh;
+     background-repeat: round;
+}
+
+.active{
+     border-bottom: solid;
+     border-bottom-color: rgba(0,150,186,1);
+     border-bottom-width: thick;
+}
+
+.container-nabvar{
+     width: 100%;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+.logo-imagen-grande{
+     width: 10vw;
+     display: block;
+}
+
+.section_text{
+     background-color: #e0e0e0;
+     color: black;
+     
+}
+
+p{
+     font-family: Roboto;
+     line-height: 1.21;
+     font-weight: 100;
+}
+
+.col__ul-li{
+     font-size: 19pt;
+     font-family: Roboto;
+
+}
+
+a:hover{
+     color: black;
+     text-decoration: none;
+}
+a{
+     color: black;
+}
+
+.col__p-2{
+     text-align: justify; 
+     font-size: 16pt;
+}
+.container__p{
+     text-align: center;
+     font-size: 37pt;
+}
+.col__p-fecha{
+     text-align: center;
+     font-size: 37pt;
+}
+
+.col__p-titulo{
+     text-align: center;
+     font-size: 15pt;
+}
+
+.col__img{
+     width: 25vw;
+     margin-bottom: 25px;
+}
+
+
+footer{
+     background-color: rgba(0,150,186,1);
+}
+
+strong a{
+     font-style: unset;
+     color: black;
+}
+
+strong a:hover{
+     color: black;
+}
+
+.footer__p{
+     font-size: 14pt;
+     text-align: left;
+     line-height: 1.55;
+     
+}
+
+.footer__img{
+     width: 71px;
+     margin-right: 17px;
+}
+
+@media screen and (max-width: 991px){
+     .logo-imagen-grande{
+          display: none;
+     }
+     
+     
+     .col__img {
+          width: 60%;
+     }
+
+     .footer__img{
+          width: 60px;
+          margin-right: 0px;
+     }
+}
