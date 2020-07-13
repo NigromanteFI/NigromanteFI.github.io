@@ -38,7 +38,7 @@ function revistas(){
 	var nombre_img = ['img1','img2','img3','img4','img5','img6','img7','img8','img9','img10','index_img_1','index_img_2'];
 	for (let index = 0; index < nombre_img.length; index++) {
 		let div = document.createElement('div');
-		div.setAttribute('class','col-2 mb-3');
+		div.setAttribute('class','col-4 col-sm-2 mb-3');
 		
 		let imagen = document.createElement('IMG');
 		imagen.setAttribute('class','d-block w-100');
