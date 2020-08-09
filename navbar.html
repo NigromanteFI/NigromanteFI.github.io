@@ -7,15 +7,15 @@
          
          <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
              <img src="./resources/logo-nigromante.png" alt="logo" class="navbar-brand logo-imagen-grande">
-             <ul class="navbar-nav">
+             <ul class="navbar-nav" id="menu_seleccion">
                  <li class="nav-item">
-                 <a class="nav-link">Inicio</a>
+                 <a class="nav-link" href="./index.html" id="index.html" >Inicio</a>
                  </li>
                  <li class="nav-item ">
-                 <a class="nav-link" href="#">Ediciones Pasadas</a>
+                 <a class="nav-link" href="./ediciones_pasadas.html" id="ediciones_pasadas.html" >Ediciones Pasadas</a>
                  </li>
                  <li class="nav-item">
-                 <a class="nav-link" href="#">Servicio Social</a>
+                 <a class="nav-link" href="./servicio_social.html" id="servicio_social.html">Servicio Social</a>
                  </li>
                  <li class="nav-item">
                      <a class="nav-link" href="#">Acerca de Nosotros</a>
@@ -27,3 +27,10 @@
          </div>
        </nav>
  </div>
+
+ <script>
+        //Codigo para resaltar la pagina en la que se encuentra
+        let url = String(window.location.href).split('/');
+        let urlActual = url[url.length-1];
+        document.getElementById(urlActual).setAttribute('class','active');            
+</script>

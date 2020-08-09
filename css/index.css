@@ -25,6 +25,16 @@
      border-bottom-width: thick;
 }
 
+
+a:hover{
+     color: black;
+     text-decoration: none;
+}
+
+a{
+     color: black;
+}
+
 .container-nabvar{
      width: 100%;
      margin-right: auto;
