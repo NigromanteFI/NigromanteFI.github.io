@@ -1,0 +1,195 @@
+.nosotros_gif{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
+.contenedor_gif{
+     height: 35vh;
+     position: relative;
+     margin-left: 0;
+     padding: 0;
+}
+
+
+.div-img__background{
+     height: 35vh;
+     background-color: rgb(0,0,0,0.5);
+}
+
+.div-img__h1{
+     color: white;
+     font-size: 60pt;
+     line-height: 0.25;
+     font-weight: 100;
+}
+
+.nigromante-principal{
+     width: 60%;
+}
+
+.logo-imagen{
+     width: 15vh;
+     background-repeat: round;
+}
+
+.active{
+     border-bottom: solid;
+     border-bottom-color: rgba(0,150,186,1);
+     border-bottom-width: thick;
+}
+
+.container-nabvar{
+     width: 100%;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+.logo-imagen-grande{
+     width: 10vw;
+     display: block;
+}
+
+.section_text{
+     background-color: #e0e0e0;
+     color: black;
+     
+}
+
+p.title{
+     font-family: Roboto;
+     line-height: 1.21;
+     font-weight: 100;
+     font-size: 49px;
+     text-align: center;
+}
+
+p.subtitulo{
+     font-family: revert;
+     line-height: 1.21;
+     font-weight: 100;
+     font-size: 22px;
+     text-align: center;
+}
+
+p em{
+     font-style: italic;
+     font-weight: 700;
+}
+
+.p_parrafo{
+     font-size: 20px;
+     text-align: justify;
+}
+
+.row_h4{
+     font-family: Roboto;
+     line-height: 1.55;   
+}
+.col__ul-li{
+     font-size: 16pt;
+     font-family: Roboto;
+     list-style: decimal;
+}
+
+a:hover{
+     color: black;
+     text-decoration: none;
+}
+a{
+     color: black;
+}
+
+.col__p-2{
+     text-align: justify; 
+     font-size: 16pt;
+}
+.container__p{
+     text-align: center;
+     font-size: 37pt;
+}
+.col__p-fecha{
+     text-align: center;
+     font-size: 37pt;
+}
+
+.col__p-titulo{
+     text-align: center;
+     font-size: 15pt;
+}
+
+.col__img,.col__img-descarga{
+     width: 25vw;
+     margin-bottom: 25px;
+}
+
+
+footer{
+     background-color: rgba(0,150,186,1);
+}
+
+strong a{
+     font-style: unset;
+     color: black;
+}
+
+strong a:hover{
+     color: black;
+}
+
+.footer__p{
+     font-size: 14pt;
+     text-align: left;
+     line-height: 1.55;
+     
+}
+
+.footer__img{
+     width: 71px;
+     margin-right: 17px;
+}
+
+.pie_imagen{
+     background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.w-100{
+     max-height: 580px !important;
+}
+
+@media screen and (max-width: 991px){
+     .logo-imagen-grande{
+          display: none;
+     }
+     
+     
+     .col__img {
+          width: 100%;
+     }
+
+     .col__img-descarga{
+          width: 50%;
+     }
+
+     .footer__img{
+          width: 60px;
+          margin-right: 0px;
+     }
+     
+     .div-img__h1 {
+          font-size: 30pt;
+     }
+
+     .col__ul-li {
+          font-size: 12pt;
+      }
+
+      .p_parrafo {
+          font-size: 15px;
+          text-align: justify;
+      }
+      p.title{
+          font-size: 36px;
+      }
+}
